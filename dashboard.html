@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+     body{
+        margin: 0;
+        padding: 0;
+        background-color: #ED0331;
+        cursor: pointer;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Roboto', sans-serif;
+     }
+     h1{
+        text-align: center;
+     }
+    .employees{
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        justify-content: center;
+        width: 40%;
+        margin: 0 auto;
+        border: 2px solid darksalmon;
+        border-radius: 15px;
+        background-color: antiquewhite;
+    }
+    .employees>div{
+        /* border: 2px solid forestgreen; */
+        height: 320px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: blanchedalmond;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding-top: 20px;
+    }
+    .employees>div>img{
+        height: 100px;
+    }
+    .pagebtn{
+        justify-content: center;
+        margin: 0 auto;
+        width: 380px;
+    }
+    .pagebtn button{
+        margin: 10px 4px;
+        border-radius: 4px;
+        height: 34px;
+        width: 30px;
+        margin-bottom: 30px
+    }
+    .inputs{
+       width: 50%;
+       margin: 0 auto;
+       margin-bottom: 20px;
+       display: flex;
+       justify-content: space-around;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>All Employees || AccessToken -[<span id="token"></span>]</h1>
+    <div class="inputs">
+    <input type="text" id="search" placeholder="Search">
+    <select name="department" id="dept">
+        <option value="">Department</option>
+        <option value="operations">Operations</option>
+        <option value="engineering">Engineering</option>
+        <option value="marketing">Marketing</option>
+        <option value="hr">HR</option>
+    </select>   
+    <button id="high">Salary High to low</button>
+    <button id="low">Salary Low to High</button>
+    </div>
+    <div class="employees">
+        
+        
+    </div>
+    <div class="pagebtn"></div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

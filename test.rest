@@ -1,0 +1,12 @@
+https://reqres.in/api/login
+
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+
+###
+https://reqres.in/api/users/2
+
+###
+https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-employees?page=10&limit=10

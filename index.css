@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ED0331;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 40px;
+}
+.loginWindow{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 33%;
+    height: 360px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.loginWindow>p{
+     margin: 16px 36%;
+     margin-top: 10px;
+     font-size: 20px;
+    }
+input{
+    height: 20px;
+    margin: 0px 36%;
+}
+
+.loginWindow img{
+    margin: 10px 33%;
+    height: 70px;
+}
+
+button{
+    margin: 20px 36%;
+    background-color: #ED0331;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 18px;
+}
+
+
